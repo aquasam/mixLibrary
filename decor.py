@@ -86,6 +86,7 @@ def decorTest3(name):
 
 if __name__ == "__main__":
     # decorTest()
-    # decorTest1(name="参数1")
+
+    decorTest1(name="参数1")
     # decorTest2()
-    print("传出参数：{}".format(decorTest3("参数")))
+    # print("传出参数：{}".format(decorTest3("参数")))
