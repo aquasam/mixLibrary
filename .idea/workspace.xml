@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc47366a-dd47-4ca8-9457-8b298915a1a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Docker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dockericon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/virtualMachines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_record.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/radis.md" beforeDir="false" afterPath="$PROJECT_DIR$/redis.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fGEQrR1Frj0Drs1xHGelAL9P25" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\mixLibrary\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc47366a-dd47-4ca8-9457-8b298915a1a3" name="Default Changelist" comment="" />
+      <created>1595836015578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595836015578</updated>
+      <workItem from="1595836017427" duration="16000" />
+      <workItem from="1601795550483" duration="8708000" />
+      <workItem from="1601970956694" duration="1419000" />
+      <workItem from="1602143293943" duration="6306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="388" y="481" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601797268310">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="388" y="481" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1601797268310" />
+    <state x="437" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601796731455">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="437" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601796731455" />
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1602144150154">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="303" y="320" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1602144150154" />
+  </component>
+</project>

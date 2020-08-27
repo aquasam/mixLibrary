@@ -170,48 +170,81 @@ d.press('menu')
 
 * 根据元素属性定位
 ```python
-element = d(resourceId="tv.danmaku.bili:id/agree")
+element = d(text="哔哩哔哩",description ='哔哩哔哩')
 ```
 * 根据层级关系定位
 ```python
-element = d.xpath()
+element = d.xpath('//*[@text="哔哩哔哩"]')
 ```
 
-* 根据坐标点击
-
-
+* 根据绝对坐标
+```python
+x=1
+y=1
+d.click(x,y)
+# 坐标可选 px(100,100) 或 %(0.11,0.21)
+```
 
 ##
 ### 7. 元素操作
 
+* 点击
+```python
+element.click(timeout=3)
+# 可选参数：timeout为设置等待时间
+```
+* 长按
+```python
+element.long_click(duration = 10, timeout=10)
+# 可选参数：duration为设置长按时长，timeout为设置等待时间
+```
 
+* 拖动
+```python
+to_x=110
+to_y=120
+element.drag_to(to_x, to_y, duration=0.5)
+element1.drag_to(element2, duration=0.5)
+```
+* 滑动
+```python
+from_x = 1
+from_y = 1
+to_x = 0
+to_y = 0
+d.swipe(from_x,from_y,to_x,to_y, step=10)
+# (from_x,from_y)为起始坐标，(to_x, to_y)为中止坐标，step为滑动速度
+```
 
+* 获取对象状态和信息
+```python
+element.exists(timeout=3)
+# 判断元素是否存在，return bool
+# 可选参数：timeout为设置等待时间
+```
+* 检查元素特定UI对象的信息
+```python
+element.info
+#返回一个包含元素所有信息的字典
+```
+* 获取/设置/清除可编辑字段的文本
+```python
+element.get_text()
+element.set_text('test,test,test')
+element.clear_text()
+```
+##
 
+### 8. 其他操作
 
+* 截图
+```python
+path = r'd:/img/test.png'
+d.screenshot(path)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 获取adb日志
+```python
+import subprocess
+ps=subprocess.Popen('adb logcat -v time > d://logcat2320.txt',stdin=subprocess.PIPE,stdout=subprocess.PIPE,shell=True)
+```
