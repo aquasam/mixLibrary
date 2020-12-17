@@ -111,10 +111,6 @@ docker search xxxx
 docker pull xxxx
 ```
 
-* 运行xxxx镜像，并执行镜像中的命令cmd (如果本地未下载xxxx镜像，则上docker hub下载)
-```shell script
-docker run xxxx cmd
-```
 
 * 列出正在运行中的容器
 ```shell script
@@ -136,6 +132,43 @@ docker run -p 3306:3306 mysql
 
 docker run -p 80:5000 project/webApp
 ```
+
+* 运行xxxx镜像，并执行镜像中的命令cmd (如果本地未下载xxxx镜像，则上docker hub下载)
+```shell script
+docker run xxxx cmd
+# 参数说明:
+--name = "Name" 定义容器名称
+-d              后方运行
+-it             使用交互方式运行
+-p              指定容器端口
+    -p  ip:主机端口:容器端口
+    -p  主机端口:容器端口
+    -p  容器端口
+-p      随机端口
+```
+
+* 退出容器
+```
+exit            # 停止并退出容器
+ctrl + P + Q    # 退出容器但不停止
+```
+
+* 删除容器
+```
+docker rm [id]                   # 删除指定容器，不能删除正在运行的容器， 如果需要，使用 rm -f
+docker rm -f $(docker ps -aq)    # 删除所有容器
+```
+
+* 启动停止容器
+```
+docker start [id]       # 启动容器
+docker stop [id]        # 停止容器
+docker restart [id]     # 重启容器
+docker kill [id]        # 杀死容器
+```
+
+* 后台启动容器
+docker run -d [images name]
 
 * 数据持久化
 ```shell script
