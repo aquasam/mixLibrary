@@ -1,6 +1,6 @@
 # docker
 
-###1. 概述
+### 1. 概述
 ![alt dockerIcon](img/dockericon.png)
 
 官网文档链接: [docker_docs](https://docs.docker.com/get-started/)
@@ -19,18 +19,18 @@
 
 ![alt virtual machines](img/virtualMachines.png)
 
-####2. docker结构
+#### 2. docker结构
 * 镜像 (image)
 * 容器 (container)
 * 仓库 (repository)
 
-#####2.1 仓库
+##### 2.1 仓库
 * 仓库是集中存放镜像文件的场所
 
 * 仓库和仓库注册服务器是有区别的。仓库注册服务器上存放多个仓库，每个仓库包含多个镜像，每个镜像包含不同的标签
 
 
-#####2.2 镜像技术（镜像即应用）
+##### 2.2 镜像技术（镜像即应用）
 > 1. 运行文档
 >
 > 2. 配置环境
@@ -43,9 +43,9 @@
 >
 > 6. 内核
     
-####3.安装和部署
+#### 3.安装和部署
 
-#####3.1 Ubantu安装
+##### 3.1 Ubantu安装
 ```shell script
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 
@@ -54,12 +54,12 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 curl -sSL https://get.daocloud.io/docker | sh
 ```
 
-#####3.2 如果之前设备有安装docker，需要先卸载旧版本
+##### 3.2 如果之前设备有安装docker，需要先卸载旧版本
 ```shell script
  sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
-#####3.3 设置阿里云镜像
+##### 3.3 设置阿里云镜像
     
 默认选择下载镜像地址：[docker hub](https://hub.docker.com/)
 
@@ -84,7 +84,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-####4. docker commands
+#### 4. docker commands
 
 * 版本信息
 ```shell script
